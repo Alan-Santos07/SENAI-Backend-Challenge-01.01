@@ -1,0 +1,25 @@
+Metodos Usuarios : 
+ . Listar [GET]
+ . Criar [POST]
+    - Nome (string)
+    - Idade (int)
+    - CPF (string)
+ . Remover [DELETE]
+
+Metodos Eventos :
+ . Cadastrar [POST]
+     - Id (int)
+     - NomeDoEvento (string)
+     - Participantes (int)
+     - DataDoEvento (date)
+     - DuracaoDoEvento (int)
+     - CriadoPor (Usuario)
+ . Listar [GET]
+ . Detalhar [GET/{id}]
+ . Editar [PATCH/{id}]
+ . Remover [DELETE]
+
+Metodos Dashboard :
+ . EventosAnuais
+ . EventosPorUsuario [GET/{id}]
+ . Top10Eventos [GET]
